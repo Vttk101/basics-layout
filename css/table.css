@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  text-align: left
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+/* BEGIN (write your solution here) */
+th {
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* END */
+
+tbody tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
